@@ -1,5 +1,3 @@
-// src/pages/Login.js
-import React from 'react';
 import './login.css';
 
 const Login = (props) => {
