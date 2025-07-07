@@ -1,12 +1,12 @@
 // src/pages/Login.js
 import React from 'react';
-import './login.css '
+import './login.css';
 
-const Login = () => {
+const Login = (props) => {
   return (
-    <div className="login-container">
+    <div >
       <div className="login-box">
-        <h2>Login</h2>
+        <h2>{props.title}</h2>
         <input type="email" placeholder="Email" />
         <input type="password" placeholder="Password" />
         <button>Login</button>
